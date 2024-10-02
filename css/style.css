@@ -1,3 +1,42 @@
-img {
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
+
+@font-face {
+    font-family: 'rajdhani';
+    src: url(../police/Rajdhani-Medium.ttf);
+}
+
+:root {
+    --yellow-color: #FFFF00;
+    --yellow-light: #f8f184;
+    --blue-color: #19587d;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'rajdhani';
+    font-size: 36px;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'rajdhani';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Space-Grotesk';
     background-color: black;
+    color: white;
+    font-weight: 300;
 }
